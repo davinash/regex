@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regex++", "regex++.vcproj", "{7BD08E47-0EC8-413C-950A-E42BFB60B9AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tregex++", "tregex++.vcproj", "{F7EC1244-EB9A-4427-913A-B00222DE85D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BD08E47-0EC8-413C-950A-E42BFB60B9AE} = {7BD08E47-0EC8-413C-950A-E42BFB60B9AE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD08E47-0EC8-413C-950A-E42BFB60B9AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BD08E47-0EC8-413C-950A-E42BFB60B9AE}.Debug|Win32.Build.0 = Debug|Win32
+		{7BD08E47-0EC8-413C-950A-E42BFB60B9AE}.Release|Win32.ActiveCfg = Release|Win32
+		{7BD08E47-0EC8-413C-950A-E42BFB60B9AE}.Release|Win32.Build.0 = Release|Win32
+		{F7EC1244-EB9A-4427-913A-B00222DE85D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7EC1244-EB9A-4427-913A-B00222DE85D2}.Debug|Win32.Build.0 = Debug|Win32
+		{F7EC1244-EB9A-4427-913A-B00222DE85D2}.Release|Win32.ActiveCfg = Release|Win32
+		{F7EC1244-EB9A-4427-913A-B00222DE85D2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
